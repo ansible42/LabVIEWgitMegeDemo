@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Folder" Type="Folder"/>
 		<Item Name="HW.vi" Type="VI" URL="../HW.vi"/>
 		<Item Name="New_ExampleVI.vi" Type="VI" URL="../New_ExampleVI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
