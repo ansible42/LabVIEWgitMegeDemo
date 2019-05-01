@@ -1,0 +1,10 @@
+[mergetool "LVMerge"]
+	cmd = 'C:/viscc/vimerge.exe' \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\"
+[difftool "LVDiff"]
+	cmd = 'C:/viscc/vidiff.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "merge_wrapper"]
+	cmd = $HOME/merge-wrapper \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[merge]
+	tool = LVMerge
+[diff]
+    tool = LVDiff
